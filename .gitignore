@@ -89,11 +89,8 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
-# celery beat schedule file
-celerybeat-schedule
 
-# SageMath parsed files
-*.sage.py
+
 
 # Environments
 .env
@@ -104,3 +101,6 @@ ENV/
 ve/
 env.bak/
 venv.bak/
+
+# Sqlite3
+.DS_Store
